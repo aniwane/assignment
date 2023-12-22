@@ -21,3 +21,4 @@ describe('BargraphchartComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+// fhfhfh
