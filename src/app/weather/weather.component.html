@@ -1,0 +1,63 @@
+<div class="weather-box">
+    <div style="display: flex; justify-content: space-between;">
+        <h6>Weather</h6>
+        <img style="height: 20px; width: 20px; cursor: pointer; gap: 10px;" src="../../assets/Images/delete.png" alt="" (click)="togglePopup()" >
+    </div>
+
+    <div class="day-date">
+        <img style="width: 20px; height: 20px; gap:2px;" src="../../assets/Images/calendar (1).png" alt="" >
+        <span>{{ currentDate }} | {{ currentTime }}</span>
+
+    </div>
+    <div class="country">
+        <div></div>
+        <img style="width: 20px; height: 20px;" src="../../assets/Images/placeholder.png" alt="">
+        <span>{{name}}</span>
+    </div>
+    <br>
+    <div class="degree">
+        <div><img style="width: 60px; height: 60 px; margin-right: 5px;" src="../../assets/Images/sun.png" alt="">
+        </div>
+        <div>
+            <div> <span style="font-size: 30px;">{{temperature}}F</span></div>
+            <div> <span style="font-size: 15px;">{{tempMin}}-{{tempMax}}F {{description}}</span></div>
+        </div>
+    </div>
+    <br>
+    <div class="strip">
+        <div>
+            <h6 style="font-weight: bold;">Sunrise:</h6>
+        </div>
+        <div>
+            <h6>{{sunriseTime}} |</h6>
+        </div>
+        <div>
+            <h6 style="font-weight: bold;">Sunset:</h6>
+        </div>
+        <div>
+            <h6>{{sunsetTime}} </h6>
+        </div>
+    </div>
+    <div class="footer">
+        <div style="text-align: center;">
+            <h6>TUE</h6>
+            <img style="width: 20px; height: 20px; margin-right: 5px;" src="../../assets/icons8-sun.svg" alt="">
+            <h6 class="temp-size">{{tempMin}}-{{tempMax}}F</h6>
+
+        </div>
+        <div style="text-align: center;">
+            <h6>WED</h6>
+            <img style="width: 20px; height: 20px; margin-right: 5px;" src="../../assets/Images/cloud.png" alt="">
+            <h6 class="temp-size">{{tempMin}}-{{tempMax}}F</h6>
+
+        </div>
+        <div style="text-align: center;">
+            <h6>THU</h6>
+            <img style="width: 20px; height: 20px; margin-right: 5px;" src="../../assets/Images/rain.png" alt="">
+            <h6 class="temp-size">{{tempMin}}-{{tempMax}}F</h6>
+
+        </div>
+    </div>
+
+
+</div>

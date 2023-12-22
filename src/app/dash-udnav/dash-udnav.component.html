@@ -1,0 +1,46 @@
+<!-- <ul class="nav nav-underline">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    </li>
+  </ul> -->
+<!-- <p-tabView class="ptab">
+  <p-tabPanel header="Live Status" routerLink="/livestatus">
+  </p-tabPanel>
+  <p-tabPanel header="Graph" routerLink="/graph">
+  </p-tabPanel>
+  <p-tabPanel header="Profile">
+   
+  </p-tabPanel>
+  <img style="width: 30px; height: 30px;" src="../../assets/home.png" alt="">
+ 
+</p-tabView> -->
+<div class="main">
+  <div style="width: 50%;">
+    <p-tabView class="ptab">
+      <p-tabPanel header="Live Status" routerLink="/livestatus">
+      </p-tabPanel>
+      <p-tabPanel header="Graph" routerLink="graph">
+      </p-tabPanel>
+      <p-tabPanel header="Profile">
+      </p-tabPanel>
+     
+    </p-tabView>
+   
+  </div>
+  <div style="display: flex; margin-top: 10px;">
+    <img style="height: 20px; width: 20px; cursor: pointer;"
+      src="../../assets/sun-color-icon.svg" alt="" (click)="togglePopup()">
+    <h6>Sunny {{temperature}}F|</h6>
+    <h6 style="font-size: 14px; color: grey;">Sunrise in 2hrs 20min </h6>
+    <img style="height: 20px; width: 20px; cursor: pointer;"
+      src="../../assets/Images/arrow-down-sign-to-navigate (1).png" alt="" (click)="togglePopup()">
+  </div>

@@ -1,0 +1,18 @@
+
+.sidebar {
+    height: 100%;
+    background-color: ghostwhite
+}
+
+.buttonsidebar {
+    gap: 40px;
+}
+
+.g-button {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}

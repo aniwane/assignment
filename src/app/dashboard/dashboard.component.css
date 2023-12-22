@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    /* width: calc(100% - 20px); */
+  }
+  
+  .sidebar {
+    width: 50px; /* Adjust the width as needed */
+    background-color: #a4a4a4; /* Sidebar background color */
+    
+  }
+  
+  .main-content {
+    flex: 1; /* Take remaining space */
+    padding: 1px; /* Adjust the padding as needed */
+  }
+  
+  .dashboard-content {
+    flex-wrap: wrap;
+  }
+  
+  .ppp {
+    flex: 1;
+   /* Adjust the margin as needed */
+  }
+ 

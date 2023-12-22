@@ -1,0 +1,17 @@
+p {
+    font-family: Lato;
+  }
+  .chart-container {
+    display: flex;
+  }
+  
+  .highcharts-container {
+    flex: 1; /* This will make the chart take the remaining space */
+  }
+  
+  .percentage-list {
+    width: 30%; /* Adjust the width as needed */
+  }
+.row{
+    display: flex;
+}  

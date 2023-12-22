@@ -1,0 +1,36 @@
+.weather-box{
+    width: 275px;
+    height: 330px;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 0 2px 5px ;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 100;
+    margin-left: 74.5%;
+    position: absolute;
+    top:110px; 
+}
+.country{
+    gap: 30px;
+}
+.degree{
+    display: flex;
+}
+.strip{
+    width: 250px;
+    height: 20px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 3px;
+    justify-content: center;
+    display: flex;
+}
+.footer{
+    display: flex;  
+    gap: 20PX; 
+    justify-content: center;
+    margin-top: 10PX;
+}
+.temp-size{
+    font-size:10px;   
+}

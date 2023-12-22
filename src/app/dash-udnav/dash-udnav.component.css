@@ -1,0 +1,12 @@
+.main{
+    /* border: 1px solid red; */
+    height: 57px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.text-data{
+    display: flex;
+    gap: 20px;
+}
