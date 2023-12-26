@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sun small</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="weather" transform="translate(-61.000000, -297.000000)">
+            <g id="sun-small" transform="translate(62.000000, 298.000000)">
+                <path d="M16.1777924,9 C13.4485843,9.00015447 10.9555653,10.5479597 9.74491913,12.9938938 C8.53427298,15.4398279 8.81546736,18.3606919 10.4705004,20.5307591 C13.3283788,22.7089556 17.3566131,22.438385 19.8975049,19.897561 C22.4383967,17.356737 22.7089745,13.3286101 20.5307199,10.470808 C19.2812139,9.51475151 17.7511178,8.99775088 16.1777924,9 Z" id="Path" fill="#F7AD1E" fill-rule="nonzero"></path>
+                <path d="M6.06791978,12.9507045 C6.02271904,13.2980255 6,13.6479064 6,13.9981562 C5.99908044,17.9411273 8.87153601,21.2966761 12.7675443,21.9038743 C16.6635526,22.5110724 20.4209373,20.1887933 21.6199933,16.4325533 C22.8190494,12.6763133 21.1020993,8.60659595 17.5748357,6.84424431 C14.0475721,5.08189268 9.7621752,6.15261493 7.47838265,9.36688038" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M7.025,10.95 C7.008,10.9836066 6.991,11.0163934 6.975,11.05" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></path>
+                <line x1="15" y1="0" x2="15" y2="4" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="15" y1="24" x2="15" y2="28" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="4" y1="4" x2="7" y2="7" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="21" y1="21" x2="24" y2="24" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="0" y1="15" x2="4" y2="15" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="24" y1="15" x2="28" y2="15" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="4" y1="24" x2="7" y2="21" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="21" y1="7" x2="24" y2="4" id="Path" stroke="#02005C" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

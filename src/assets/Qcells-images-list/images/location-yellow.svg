@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9.94166667px" height="16px" viewBox="0 0 9.94166667 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>location-yellow</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="location-orange" fill="#CEA90F" fill-rule="nonzero">
+            <path d="M4.97083333,0 C2.225,0 0,2.2375 0,5 C0,9.775 4.97083333,16 4.97083333,16 C4.97083333,16 9.94166667,9.775 9.94166667,5 C9.94166667,2.2375 7.71666667,0 4.97083333,0 Z M4.97083333,7.425 C3.67083333,7.425 2.62083333,6.36666667 2.62083333,5.0625 C2.62083333,3.75833333 3.675,2.69583333 4.97083333,2.69583333 C6.27083333,2.69583333 7.32083333,3.75416667 7.32083333,5.0625 C7.32083333,6.36666667 6.27083333,7.425 4.97083333,7.425 Z" id="location-yellow"></path>
+        </g>
+    </g>
+</svg>

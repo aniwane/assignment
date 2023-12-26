@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dahboard-live-status" transform="translate(-864.000000, -365.000000)">
+            <g id="Group-4" transform="translate(543.000000, 147.000000)">
+                <g id="Group-14" transform="translate(321.000000, 218.000000)">
+                    <circle id="Oval-Copy-157" fill="#D50700" cx="16" cy="16" r="16"></circle>
+                    <g id="invertor-icon" transform="translate(8.000000, 6.000000)">
+                        <rect id="Rectangle" stroke="#FFFFFF" x="0.5" y="0.5" width="15" height="19" rx="2"></rect>
+                        <circle id="Oval" fill="#FFFFFF" cx="3.91666667" cy="10.1666667" r="1"></circle>
+                        <rect id="Rectangle" fill="#FFFFFF" x="5" y="2.91666667" width="6" height="2"></rect>
+                        <polygon id="Path-2" fill="#FFFFFF" points="8 7 12 7 9 12 12 12 7 18 8 14 4.66666667 14"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

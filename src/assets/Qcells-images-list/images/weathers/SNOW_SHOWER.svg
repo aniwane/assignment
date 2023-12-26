@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>68BA5778-871E-4FD7-B86F-F880D920409C</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="weather-icon-v1" transform="translate(-840.000000, -330.000000)">
+            <g id="icon-weather-snow-shower" transform="translate(840.000000, 330.000000)">
+                <rect id="Rectangle" fill-opacity="0" fill="#000000" x="0" y="0" width="64" height="64"></rect>
+                <g id="Group-4" transform="translate(5.000000, 10.000000)">
+                    <g id="Group-3" stroke="#F05A23" stroke-width="4">
+                        <path d="M45.6487847,33 C51.9661585,29.5607716 54.6993942,25.2879746 53.8484918,20.1816092 C52.9975894,15.0752438 48.4870807,12.2726146 40.3169656,11.7737217 C37.4486032,3.9245739 32.5001069,0 25.4714769,0 C18.4428469,0 13.4711162,3.9245739 10.5562847,11.7737217 C4.76831684,13.0832352 1.35070112,15.8858643 0.303437512,20.1816092 C-0.743826096,24.4773541 0.919751133,28.0134984 5.2941692,30.7900422" id="Path-4"></path>
+                    </g>
+                    <ellipse id="Oval" fill="#F05A23" cx="21.3962264" cy="25" rx="2.03773585" ry="2"></ellipse>
+                    <ellipse id="Oval" fill="#F05A23" cx="30.5660377" cy="23" rx="2.03773585" ry="2"></ellipse>
+                    <ellipse id="Oval" fill="#F05A23" cx="20.3773585" cy="33" rx="2.03773585" ry="2"></ellipse>
+                    <ellipse id="Oval" fill="#F05A23" cx="29.5471698" cy="31" rx="2.03773585" ry="2"></ellipse>
+                    <ellipse id="Oval" fill="#F05A23" cx="17.3207547" cy="41" rx="2.03773585" ry="2"></ellipse>
+                    <ellipse id="Oval" fill="#F05A23" cx="26.490566" cy="39" rx="2.03773585" ry="2"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

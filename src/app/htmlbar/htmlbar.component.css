@@ -1,18 +1,19 @@
 .one{
     height: 150px;
     width: 180px;
-    background-color: rgb(203, 193, 150);
+    background-color: rgb(206 169 15);
     border-radius: 5px;
     text-align: center;
     gap: 10px;
     margin-top: 20px;  
     gap: 10px; 
     margin-left: 11px;
+    
 }
 .two{
     height: 150px;
     width: 180px;
-    background-color:#77dd77;
+    background-color:#0fb280;
     border-radius: 5px;
     text-align: center;
     gap: 10px;
@@ -36,6 +37,16 @@ width: 40%;
     width: 40px;
     border-radius: 50px;
     text-align: center;
+    background-color: rgb(220 194 87);
+
+}
+.image-bar-2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    text-align: center;
+    background-color:#57c9a6;
+
 }
 .img-bar{
     height: 20px;
@@ -43,4 +54,25 @@ width: 40%;
     border-radius: 30px;
     background-color: rgb(203, 203, 203);
     text-align: center;
+}
+.system-size-1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.system-size-2{
+    height: 30px;
+    width: 30px;
+    background-color:green;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.system-size-3{
+    height: 30px;
+    width: 30px;
+    background-color:red;
+    border-radius: 20px;
+    margin-left: 20px;
 }

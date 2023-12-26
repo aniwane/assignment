@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="19px" viewBox="0 0 12 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0747B19F-506C-4B66-AF4B-04244C4D3AF7</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dahboard-live-status" transform="translate(-616.000000, -372.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(543.000000, 147.000000)">
+                <g id="Group-27" transform="translate(41.000000, 218.000000)">
+                    <g id="battery-icon" transform="translate(38.000000, 16.500000) rotate(-90.000000) translate(-38.000000, -16.500000) translate(29.000000, 11.000000)">
+                        <path d="M16.2,3.66666667 L16.2,1.83333333 C16.2,0.820811292 15.3941125,0 14.4,0 L1.8,0 C0.80588745,0 -2.84217094e-14,0.820811292 -2.84217094e-14,1.83333333 L-2.84217094e-14,9.16666667 C-2.84217094e-14,10.1791887 0.80588745,11 1.8,11 L14.4,11 C15.3941125,11 16.2,10.1791887 16.2,9.16666667 L16.2,7.33333333 L18,7.33333333 L18,3.66666667 L16.2,3.66666667 Z M6.3,10.0833333 L8.1,6.5175 L4.5,5.5 L9.9,0.916666667 L9,4.4825 L12.6,5.5 L6.3,10.0833333 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

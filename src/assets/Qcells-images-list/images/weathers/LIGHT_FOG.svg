@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0F1CA01B-10E7-418B-81BA-13A526DD9B5D</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="weather-icon-v1" transform="translate(-128.000000, -482.000000)">
+            <g id="Group-2" transform="translate(128.000000, 482.000000)">
+                <rect id="Rectangle" fill-opacity="0" fill="#000000" x="0" y="0" width="64" height="64"></rect>
+                <g id="Group" transform="translate(5.000000, 7.000000)" stroke="#F05A23" stroke-width="4">
+                    <line x1="15.3423415" y1="30.5946645" x2="26.0090081" y2="30.5946645" id="Path-2" stroke-linecap="round"></line>
+                    <line x1="21.3423415" y1="39.5946645" x2="48.3897054" y2="39.75" id="Path-2" stroke-linecap="round"></line>
+                    <line x1="11" y1="48.75" x2="31.0244924" y2="48.5946645" id="Path-2" stroke-linecap="round"></line>
+                    <path d="M45.6487847,31 C51.9661585,27.7692097 54.6993942,23.7553701 53.8484918,18.9584814 C52.9975894,14.1615927 48.4870807,11.5288198 40.3169656,11.0601628 C37.4486032,3.68672094 32.5001069,0 25.4714769,0 C18.4428469,0 13.4711162,3.68672094 10.5562847,11.0601628 C4.76831684,12.2903118 1.35070112,14.9230847 0.303437512,18.9584814 C-0.743826096,22.9938781 0.919751133,26.3157106 5.2941692,28.923979" id="Path-4-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

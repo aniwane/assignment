@@ -72,7 +72,7 @@ export class PiechartComponent implements OnInit {
           data: [
             {
               name: 'From Solar',
-              y: 301340,
+              y: 351340,
               z: 201.8,
               colors: [
                 '#50B432',
@@ -87,12 +87,12 @@ export class PiechartComponent implements OnInit {
             },
             {
               name: 'From Battery',
-              y: 41277,
+              y: 311277,
               z: 214.5,
             },
             {
               name: 'From Grid',
-              y: 357022,
+              y: 37022,
               z: 235.6,
             },
           ],
