@@ -19,7 +19,7 @@ export class WeatherComponent implements OnInit {
   temperature: any;
   tempMax:any;
   tempMin:any;
-
+ 
 
   constructor(private weather: DemoserviceService, private datePipe: DatePipe) {
     const currentDateTime = new Date();
@@ -63,6 +63,7 @@ export class WeatherComponent implements OnInit {
       this.sunriseTime = this.formatTimestamp(sunriseTimestamp);
       this.sunsetTime = this.formatTimestamp(sunsetTimestamp);
 
+     
       console.log(data);
     });
   }

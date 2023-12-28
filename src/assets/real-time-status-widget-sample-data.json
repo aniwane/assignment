@@ -1,0 +1,69 @@
+{
+    "siteId": "cb098d38-2b2d-4246-9c47-8e8fc84a216e",
+    "configuration": "DC Coupled",
+    "timestamp": "2023-05-02 12:57:52",
+    "nodes": [
+        {
+            "id": "panel",
+            "type": "panel",
+            "power": 15.6,
+            "unit": "kW",
+            "installed": true
+        },
+        {
+            "id": "inverter",
+            "type": "inverter",
+            "power": 8.3,
+            "unit": "kW",
+            "installed": true
+        },
+        {
+            "id": "battery",
+            "type": "battery",
+            "power": 9.4,
+            "unit": "kW",
+            "installed": true
+        },
+        {
+            "id": "home",
+            "type": "home",
+            "power": 5.8,
+            "unit": "kW",
+            "installed": true
+        },
+        {
+            "id": "grid",
+            "type": "grid",
+            "power": 0.9,
+            "unit": "kW",
+            "installed": true
+        }
+    ],
+    "edges": [
+        {
+            "source": "panel",
+            "target": "inverter",
+            "flow": "NONE"
+        },
+        {
+            "source": "panel",
+            "target": "battery",
+            "flow": "NONE"
+        },
+        {
+            "source": "battery",
+            "target": "inverter",
+            "flow": "UPSTREAM"
+        },
+        {
+            "source": "inverter",
+            "target": "grid",
+            "flow": "NONE"
+        },
+        {
+            "source": "inverter",
+            "target": "home",
+            "flow": "NONE"
+        }
+    ]
+}

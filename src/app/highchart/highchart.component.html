@@ -4,25 +4,24 @@
       <!-- <h3 style="font-weight: bold;">Production</h3> -->
       <div class="bar-head">
         <div class="bar-head-01">
-          <h5 style="font-size: 14px; font-weight: bold;">Today</h5>
-          <h6 style="color: green;font-size: 14px;">40.05kWh</h6>
+          <h5 style="font-size: 14px; font-weight: bold">Today</h5>
+          <h6 style="color: green; font-size: 14px">40.05kWh</h6>
         </div>
         <div class="bar-head-02">
-          <h5 style="font-size: 14px; font-weight: bold;">Monthly</h5>
-          <h6 style="color: green; font-size: 14px;">648.10kWh</h6>
+          <h5 style="font-size: 14px; font-weight: bold">Monthly</h5>
+          <h6 style="color: green; font-size: 14px">648.10kWh</h6>
         </div>
         <div class="bar-head-02">
-          <h5 style="font-size: 14px; font-weight: bold;">Anually</h5>
-          <h6 style="color: green; font-size: 14px;">1.35mWh</h6>
+          <h5 style="font-size: 14px; font-weight: bold">Anually</h5>
+          <h6 style="color: green; font-size: 14px">1.35mWh</h6>
         </div>
         <div class="bar-head-02">
-          <h5 style="font-size: 14px; font-weight: bold;">LifeTime</h5>
-          <h6 style="color: green; font-size: 14px;">5.32mWh</h6>
+          <h5 style="font-size: 14px; font-weight: bold">LifeTime</h5>
+          <h6 style="color: green; font-size: 14px">5.32mWh</h6>
         </div>
       </div>
       <app-bargraphchart></app-bargraphchart>
     </p-card>
-
   </div>
   <div class="col-4">
     <app-htmlbar></app-htmlbar>
@@ -33,28 +32,40 @@
         <div class="col-6">
           <app-piechart></app-piechart>
         </div>
-        <div class="col-6" style="margin-top: 50px;">
+        <div class="col-6" style="margin-top: 50px">
           <div class="chart-info">
-            <div class="info-1"><img src="../../assets/solar-rts-icon.svg" alt="solar"
-                style="height: 20px; width: 20px; margin-left: 5px;"></div>
+            <div class="info-1">
+              <img
+                src="../../assets/solar-rts-icon.svg"
+                alt="solar"
+                style="height: 20px; width: 20px; margin-left: 5px"
+              />
+            </div>
             <div>
               <h5 class="side-text">From Solar</h5>
               <h6 class="percent">55%</h6>
             </div>
           </div>
           <div class="chart-info">
-            <div class="info-2"><img src="../../assets/Qcells-images-list/images/battery-icon.svg" alt="battery"
-                style="height: 20px; width: 20px; margin-left: 5px;"></div>
+            <div class="info-2">
+              <img
+                src="../../assets/Qcells-images-list/images/battery-icon.svg"
+                alt="battery"
+                style="height: 20px; width: 20px; margin-left: 5px"
+              />
+            </div>
             <div>
               <h5 class="side-text">From Battery</h5>
               <h6 class="percent-2">40%</h6>
             </div>
-
           </div>
           <div class="chart-info">
             <div class="info-3">
-              <img src="../../assets/Qcells-images-list/images/grid-icon.svg" alt="grid"
-                style="height: 20px; width: 20px; margin-left: 5px;">
+              <img
+                src="../../assets/Qcells-images-list/images/grid-icon.svg"
+                alt="grid"
+                style="height: 20px; width: 20px; margin-left: 5px"
+              />
             </div>
             <div>
               <h5 class="side-text">From Grid</h5>
@@ -65,7 +76,126 @@
       </div>
       <h6 class="footer">As of 10 hrs ago</h6>
     </p-card>
+  </div>
+  <div class="col-4 mb-4" class="real-time">
+    <p-card class="real-time" header="Real time status">
+      <div class="image-top">
+        <div class="top-image-1">
+          <img
+            style="margin-top: 10px; margin-left: 12px"
+            src="../../assets/Qcells-images-list/images/solar-rts-icon.svg"
+            alt=""
+          />
+          <h3
+            style="
+              margin-top: 17px;
+              font-size: 15px;
+              margin-left: 6px;
+              color: #d8bb42;
+              font-weight: bold;
+            "
+          >
+            {{solar?.power }}{{solar?.unit}}
+          </h3>
+        </div>
+        <div>
+          <p style="color: #2079bd; font-size: 24px; font-weight: bold">
+            _____________
+          </p>
+        </div>
+        <div class="top-image-2">
+          <img
+            style="margin-top: 11px; margin-left: 15px"
+            src="../../assets/Qcells-images-list/images/inverter-rts-icon.svg"
+            alt=""
+          />
+          <h3
+            style="
+              margin-top: 15px;
+              font-size: 15px;
+              margin-left: 6px;
+              color: #569acd;
+              font-weight: bold;
+            "
+          >
+           {{invertor?.power}}{{invertor?.unit}}
+          </h3>
+        </div>
+      </div>
+      <div style="display: flex">
+        <p class="vertical-line"></p>
+        <p class="vertical-line-2"></p>
+        <p class="vertical-line-3"></p>
+      </div>
 
+      <div class="mid-image">
+        <div class="mid-image-1">
+          <img
+            style="margin-top: 11px; margin-left: 10px"
+            src="../../assets/Qcells-images-list/images/home-rts-icon.svg"
+            alt=""
+          />
+          <h3
+            style="
+              margin-top: 15px;
+              font-size: 15px;
+              margin-left: 6px;
+              color: #21c8f5;
+              font-weight: bold;
+            "
+          >
+            {{home?.power}}{{home?.unit}}
+          </h3>
+        </div>
+        <div>
+          <p style="color: #21c8f5; font-size: 24px; font-weight: bold">
+            ______________________
+          </p>
+        </div>
+        <p style="color: #7c5ca1; font-size: 24px; font-weight: bold; margin-left: 65px;">
+          ______________________
+        </p>
+        <div class="mid-image-2">
+          <img
+            style="margin-top: 11px; margin-left: 13px"
+            src="../../assets/Qcells-images-list/images/grid-rts-icon.svg"
+            alt=""
+          />
+          <h3
+            style="
+              margin-top: 15px;
+              font-size: 15px;
+              margin-left: 6px;
+              color: #7c5ca1;
+              font-weight: bold;
+            "
+          >
+            {{grid?.power}}{{grid.unit}}
+          </h3>
+        </div>
+      </div>
+      <div class="bottom-image">
+        <div class="bottom-image-1">
+          <img
+            style="margin-top: 11px; margin-left: 18px"
+            src="../../assets/Qcells-images-list/images/battery-rts-icon.svg"
+            alt=""
+          />
+          <h3
+            style="
+              margin-top: 15px;
+              font-size: 15px;
+              margin-left: 6px;
+              color: #0eb27f;
+              font-weight: bold;
+            "
+          >
+           {{battery?.power}}{{battery?.unit}}
+          </h3>
+        </div>
+        
+      </div>
+    </p-card>
   </div>
   <div class="col-4 mb-4">
     <p-card header="System Size">
@@ -78,33 +208,90 @@
       <!-- <h3 style="font-weight: bold;">Usage history</h3> -->
       <div class="usage-head">
         <div class="usage-head-01">
-          <img style="background-color:#2caffe; border-radius: 20px; width: 20px; height: 20px;"
-            src="../../assets/inverter-rts-icon.svg" alt="">
-          <h5 style="font-size: 12px; font-weight: bold; color: rgb(183, 183, 183);">Production</h5>
-          <div style="display: flex; margin-left: 21px;">
-            <h6 style="color:#2caffe;font-size: 16px; font-weight: bold;">60</h6>
-            <h6 style=" color:#2caffe;font-size: 10px; margin-top: 6px;">mV</h6>
+          <img
+            style="
+              background-color: #2caffe;
+              border-radius: 20px;
+              width: 20px;
+              height: 20px;
+            "
+            src="../../assets/inverter-rts-icon.svg"
+            alt=""
+          />
+          <h5
+            style="
+              font-size: 12px;
+              font-weight: bold;
+              color: rgb(183, 183, 183);
+            "
+          >
+            Production
+          </h5>
+          <div style="display: flex; margin-left: 21px">
+            <h6 style="color: #2caffe; font-size: 16px; font-weight: bold">
+              60
+            </h6>
+            <h6 style="color: #2caffe; font-size: 10px; margin-top: 6px">mV</h6>
           </div>
         </div>
         <div class="usage-head-01">
-          <img style="background-color: rgb(84 79 197); border-radius: 20px; width: 20px; height: 20px;"
-            src="../../assets/home-rts-icon.svg" alt="">
-          <h5 style="font-size: 12px; font-weight: bold; color: rgb(183, 183, 183);">Home Usage</h5>
-          <div style="display: flex; margin-left: 21px;">
-            <h6 style="color:rgb(84 79 197);font-size: 16px; font-weight: bold;">42</h6>
-            <h6 style=" color:rgb(84 79 197);font-size: 10px; margin-top: 6px;">mV</h6>
+          <img
+            style="
+              background-color: rgb(84 79 197);
+              border-radius: 20px;
+              width: 20px;
+              height: 20px;
+            "
+            src="../../assets/home-rts-icon.svg"
+            alt=""
+          />
+          <h5
+            style="
+              font-size: 12px;
+              font-weight: bold;
+              color: rgb(183, 183, 183);
+            "
+          >
+            Home Usage
+          </h5>
+          <div style="display: flex; margin-left: 21px">
+            <h6
+              style="color: rgb(84 79 197); font-size: 16px; font-weight: bold"
+            >
+              42
+            </h6>
+            <h6 style="color: rgb(84 79 197); font-size: 10px; margin-top: 6px">
+              mV
+            </h6>
           </div>
         </div>
         <div class="usage-head-01">
-          <img style="background-color:#00e272; border-radius: 10px;width: 20px; height: 20px;"
-            src="../../assets/grid-rts-icon.svg" alt="">
-          <h5 style="font-size: 12px; font-weight: bold; color: rgb(183, 183, 183);">Export to Grid</h5>
-          <div style="display: flex; margin-left: 21px;">
-            <h6 style="color: #00e272;font-size: 16px; font-weight: bold;">18</h6>
-            <h6 style=" color: #00e272;font-size: 10px; margin-top: 6px;">mV</h6>
+          <img
+            style="
+              background-color: #00e272;
+              border-radius: 10px;
+              width: 20px;
+              height: 20px;
+            "
+            src="../../assets/grid-rts-icon.svg"
+            alt=""
+          />
+          <h5
+            style="
+              font-size: 12px;
+              font-weight: bold;
+              color: rgb(183, 183, 183);
+            "
+          >
+            Export to Grid
+          </h5>
+          <div style="display: flex; margin-left: 21px">
+            <h6 style="color: #00e272; font-size: 16px; font-weight: bold">
+              18
+            </h6>
+            <h6 style="color: #00e272; font-size: 10px; margin-top: 6px">mV</h6>
           </div>
         </div>
-
       </div>
       <app-usagehistory></app-usagehistory>
     </p-card>
