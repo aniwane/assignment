@@ -5,6 +5,7 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HighchartComponent } from './highchart/highchart.component';
 import { GraphComponent } from './graph/graph.component';
+import { AuthGuard } from './authguard/auth.guard';
 
 const routes: Routes = [
 
@@ -18,11 +19,13 @@ const routes: Routes = [
   },
   {
     path: 'dashboard',
-    component: DashboardComponent
+    component: DashboardComponent,
+    canActivate:[AuthGuard]
   },
   {
     path: 'livestatus',
-    component: HighchartComponent
+    component: HighchartComponent,
+   
   },
   {
     path:'graph',
